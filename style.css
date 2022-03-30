@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    color: beige;
+    margin: 0px;
+    /*border: 1px solid yellow;*/
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: antiquewhite;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: inherit;
+    text-align: center;
+    position: fixed;
+}
+
+#logo {
+    /*border: 1px solid royalblue;*/
+    width: 20%;
+}
+
+#menu {
+    /*border: 1px solid cyan;*/
+    width: 80%;
+    background-color: black;
+}
+
+a {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    color: bisque;
+    font-size: 18px;
+}
+
+li:hover {
+    color: rgb(22, 129, 129);
+    transition: all 1s ease-in-out, height 0ms;
+}
+
+#espa {
+    height: 100px;
+    /*border: 1px yellow;*/
+}
+
+section {
+    height: 300px;
+    /*border: 1px solid red;*/
+    /*margin-top: 10px;*/
+    padding-top: 90px;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.top1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.top0 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Titulo011 {
+    height: 300px;
+    /*border: 1px solid rgb(0, 255, 0);*/
+    margin-top: -100px;
+}
+
+.top11 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.top11 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Divulga {
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit;
+    /*border: 1px solid red;*/
+}
+
+#Divulga01 {
+    /*background-color: aquamarine;*/
+    width: 60%;
+    height: 350px;
+}
+
+#Beneficiente {
+    width: 40%;
+    height: 350px;
+}
+
+.divulgaTit {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(60, 90, 32);
+}
+
+.linkrodape {
+    color: rgba(54, 24, 190, 0);
+    text-align: center;
+}
